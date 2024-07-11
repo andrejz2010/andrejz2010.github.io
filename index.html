@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Coding Journey</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -14,16 +15,17 @@
         <section>
             <h2>Programming Languages I'm Learning</h2>
             <ul>
-                <li>Java</li>
-                <li>JavaScript</li>
                 <li>Swift</li>
-            
+                <li>JavaScript</li>
+                <li>Java</li>
+                
             </ul>
         </section>
         
-        <section>
+        <section id="interests-section">
             <h2>Interests</h2>
-            <p>I am passionate about web development and machine learning.</p>
+            <p>I am passionate about web development and machine learning. I enjoy creating web applications that solve real-world problems and exploring the capabilities of AI in improving user experiences.</p>
+            <button id="toggle-interests">Show/Hide Interests</button>
         </section>
         
         <section>
@@ -31,6 +33,7 @@
             <ol>
                 <li>Sushi</li>
                 <li>Pizza</li>
+                <li>Burger</li>
                 <li>Pasta</li>
                 <li>Ice Cream</li>
             </ol>
@@ -50,6 +53,19 @@
             <h2>About Me</h2>
             <p>Hi, I'm Andrej Zacharov. I'm a budding software developer with a keen interest in building scalable and efficient applications. Below is a picture of me:</p>
             <img src="Profile.jpg" alt="Picture of Andrej Zacharov">
+        </section>
+        
+        <section>
+            <h2>Calculator</h2>
+            <input type="number" id="num1" placeholder="Enter first number">
+            <input type="number" id="num2" placeholder="Enter second number">
+            <button id="calculate">Calculate</button>
+            <p id="calc-result"></p>
+        </section>
+        
+        <section>
+            <h2>Greeting</h2>
+            <p id="greeting"></p>
         </section>
     </main>
 </body>
